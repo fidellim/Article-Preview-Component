@@ -26,52 +26,51 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/Solution%20PC.png)
+![](./images/Solution%20PC%20Active.png)
+![](./images/Solution%20Mobile.png)
+![](./images/Solution%20Mobile%20Active.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/fidellim/Article-Preview-Component)
+- Live Site URL: [Live Site](https://hardcore-kowalevski-796919.netlify.app/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- SASS
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+Learned how to make a container with an arrow.
 
 ```css
-.proud-of-this-css {
-	color: papayawhip;
+.share-container::after {
+	content: " ";
+	position: absolute;
+	right: 50%;
+	bottom: -10px;
+	transform: translateX(50%);
+	border-top: 10px solid $veryDarkGrayishBlue;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+	border-bottom: none;
 }
-```
-
-```js
-const proudOfThisFunc = () => {
-	console.log("🎉");
-};
 ```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+To learn more front-end development.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Box with Arrow](https://codeconvey.com/css-message-box-with-arrow/#:~:text=The%20HTML%20Structure,top%20of%20the%20message%20box.) - This gave me an idea on how to make a container with an arrow.
 
 ## Author
 
